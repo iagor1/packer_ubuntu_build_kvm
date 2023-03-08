@@ -21,6 +21,8 @@ packer build ukvmhteste.pkr.hcl
 *this process may take a while*
 
 ## Code explain 
+Packer creates a custom image based on your choice of image, in this code we create a custom ubuntu image, you can customize any image, like creating a 
+image with nginx already installed
 the block "source" basicly is a machine configuration such as memory etc.
 the boot_command is when the vm starts and we need to configure the installation, this command beggins the process of auto installation.
 The http_directory    = "http-server" points to a folder, in this folder there is 2 files, meta-data is empety on porpuse, in the user-data is where the maggic happens,
