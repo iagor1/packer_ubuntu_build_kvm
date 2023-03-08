@@ -9,13 +9,15 @@ clone this repo
 you can find the installation tutorial in this link [packer](https://developer.hashicorp.com/packer/tutorials/docker-get-started/get-started-install-cli)
 and you are good to go :) 
 With packer installed, to build the template e deploy the vm you need to do some command using packer
-ˋˋˋ
-packer init .
-ˋˋˋ
 
-ˋˋˋ
+```sh
+packer init .
+```
+```sh
 packer build ukvmhteste.pkr.hcl
-ˋˋˋ
+```
+
+
 *this process may take a while*
 
 ## Code explain 
